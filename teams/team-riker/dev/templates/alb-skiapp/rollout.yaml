@@ -5,6 +5,7 @@ metadata:
   namespace: team-riker
   labels:
     app: skiapp
+    env: dev
 spec:
   replicas: 3
   revisionHistoryLimit: 1
